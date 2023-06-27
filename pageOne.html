@@ -1,0 +1,156 @@
+<!-- https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure -->
+<!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header -->
+<!-- https://www.w3schools.com/html/html5_semantic_elements.asp -->
+
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Assignment 1 - page 1</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="assignment1.css">
+    </head>
+
+    <body>
+        <header>
+            <nav id="mainMenu">
+                <a href="#">My Account</a>
+                <a href="#">Wish List</a>
+                <a href="#">Shopping Cart</a>
+                <a href="#">Checkout</a>
+            </nav>
+        </header>
+
+        <main>
+            <h1>Art Store</h1>
+
+            <nav id="navMenu">
+                <a href="#">Home</a> 
+                <a href="#">About Us</a> 
+                <a href="#">Art Works</a> 
+                <a href="#">Artists</a>
+            </nav>
+
+            <section id="content">
+                <h2>Self-portrait in a Straw Hat</h2>
+                <p> By <a href="#">Louise Elisabeth Lebrun</a></p>
+                
+                <div id="productView">
+                    
+                    <div class="alignleft">
+                        <img src="113010.jpg">
+                    </div>
+                    
+                    <div id="description"> 
+                        <p> The painting appears, after cleaning, to be an autograph replica of a picture, the original of which 
+                            was painted in Brusselsin 1782 in free imitation of Rubens's 'Chapeau de Paille', which Vigée Le Brun had seen in Antwerp.
+                            It was exhibited in Paris in 1782 at the Salon de la Correspondance.
+                            Vigée Le Brun's original is recorded in a private collection in France.
+                        </p>
+                        
+                        <p id="priceTag"> $700</p>
+
+                        <div class="buttonBox">
+                            <button>Add to Wish List</button>
+                            <button>Add to Shopping Cart</button>
+                        </div>
+
+                        <h3>Product Details</h3>
+                        <hr>
+
+                        <!-- here is the table -->
+
+                        <table>
+                            <tr>
+                                <th>Date:</th> <td>1982</td>
+                            </tr>
+                            
+                            <tr>
+                                <th>Medium:</th> <td>Oil on canvas</td>
+                            </tr>
+
+                            <tr>
+                                <th>Dimentions:</th> <td>98cm x 71cm</td>
+                            </tr>
+
+                            <tr>
+                                <th>Home:</th> <td><a href="#">National Gallery, London</a></td>
+                            </tr>
+
+                            <tr>
+                                <th>Genres:</th> <td><a href="#">Realism, Rococo</a></td>
+                            </tr>
+
+                            <tr>
+                                <th>Subject:</th> <td><a href="#">People, Arts</a></td>
+                            </tr>
+                        </table>
+
+                    </div> <!--  end of description -->
+
+                </div> <!--  end of productView -->
+
+                <h3>Similar Products</h3> 
+                <hr>
+                <div id="similarProducts">
+                    
+                    <div class="productPreview">
+                        <div class="productCard">
+                            <img src="thumbs/116010.jpg"> <br>
+                            <a href="#">Artist Holding a Thistle</a> <br>
+                            <div>
+                                <button>View </button>
+                                <button>Wish </button>
+                                <button>Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="productPreview">
+                        <div class="productCard">
+                            <img src="thumbs/120010.jpg"> <br>
+                            <a href="#">Portrait of Eleonor of Toledo</a> <br>
+                            <div>
+                                <button>View </button>
+                                <button>Wish </button>
+                                <button>Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="productPreview">
+                        <div class="productCard">
+                            <img src="thumbs/107010.jpg"> <br>
+                            <a href="#">Madame de Pompadour</a> <br>
+                            <div>
+                                <button>View </button>
+                                <button>Wish </button>
+                                <button>Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="productPreview">
+                        <div class="productCard">
+                            <img src="thumbs/106020.jpg"> <br>
+                            <a href="#">Girl with a Pearl Earrings</a> <br>
+                            <div>
+                                <button>View </button>
+                                <button>Wish </button>
+                                <button>Cart</button>
+                            </div>
+                        </div>    
+                    </div>
+
+                </div>
+
+            </section>
+
+        </main>
+
+        <footer>
+            <p>All images are copyright of their owners. This is just a hypothetical site &copy 2023 Copyright Art Store</p>
+        </footer>
+
+    </body>
+
+</html>
